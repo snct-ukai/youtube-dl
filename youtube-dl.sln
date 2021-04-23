@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtube-dl", "youtube-dl\youtube-dl.csproj", "{96E321FA-6E4A-4015-943C-EC1FCEC6E806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E321FA-6E4A-4015-943C-EC1FCEC6E806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E321FA-6E4A-4015-943C-EC1FCEC6E806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E321FA-6E4A-4015-943C-EC1FCEC6E806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E321FA-6E4A-4015-943C-EC1FCEC6E806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED06FC3B-A7F3-4582-A9C6-C9217664C33F}
+	EndGlobalSection
+EndGlobal
