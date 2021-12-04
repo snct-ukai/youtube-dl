@@ -22,7 +22,6 @@ namespace youtube_dl
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            button2.Text = "ダウンロード";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -43,8 +42,10 @@ namespace youtube_dl
                 sfd.FileName = video.FullName;
                 try
                 {
-                    System.IO.File.WriteAllBytes(fpath +"/"+ sfd.FileName, video.GetBytes());
-                    MessageBox.Show("ダウンロード完了", "完了", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    string path = fpath + "/" + sfd.FileName;
+                    System.IO.File.WriteAllBytes(path, video.GetBytes());
+                    MessageBox.Show("ダウンロード完了", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    System.Diagnostics.Process p = System.Diagnostics.Process.Start(path);
                 }
                 catch(Exception ex)
                 {
